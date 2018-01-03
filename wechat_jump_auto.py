@@ -9,8 +9,7 @@ from PIL import Image, ImageDraw
 import random
 import json
 import re
-
-
+'''
 # === 思路 ===
 # 核心：每次落稳之后截图，根据截图算出棋子的坐标和下一个块顶面的中点坐标，
 #      根据两个点的距离乘以一个时间系数获得长按的时间
@@ -28,7 +27,7 @@ import re
 # TODO: 看看两个块中心到中轴距离是否相同，如果是的话靠这个来判断一下当前超前还是落后，便于矫正
 # TODO: 一些固定值根据截图的具体大小计算
 # TODO: 直接用 X 轴距离简化逻辑
-
+'''
 
 def open_accordant_config():
     screen_size = _get_screen_size()
